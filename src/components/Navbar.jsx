@@ -50,7 +50,7 @@ const Navbar = () => {
       </nav>
 {/* mobile */}
 <div>
-      <nav className={` bg-[#808080] w-1/2 flex flex-col md:flex-row justify-between items-center px-6 text-white fixed py-7 max-w-screen-xl md:hidden ${!nav? '-ml-[100%]': 'ml-0'} `}>
+      <nav className={` bg-[#808080] w-1/2 flex flex-col md:flex-row justify-between items-center px-6 text-white absolute z-10 py-7 max-w-screen-xl md:hidden ${!nav? '-ml-[100%]': 'ml-0'} `}>
         <div className="flex flex-col items-center">
           <img src={logoImg} alt="Logo" />
           <p className="font-Averia text-[#FEE715] font-bold mt-[-3px]">
