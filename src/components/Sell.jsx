@@ -7,7 +7,7 @@ import qualtyImg from "../assets/quality.png";
 const Sell = () => {
   return (
     <div className="flex flex-col bg-[#373737] px-10 relative">
-      <div className="absolute bg-[#808080] w-3/4 md:w-2/3 -top-14 left-24 md:-top-10 md:left-[160px] lg:left-[220px] flex justify-center items-center rounded-2xl opacity-80 ">
+      <div className="absolute bg-[#808080] w-3/4 md:w-2/3 -top-14 left-16 md:-top-10 md:left-[160px] lg:left-[220px] flex justify-center items-center rounded-2xl opacity-80 ">
         <div className="flex flex-col text-center md:flex-row md:text-start gap-1 items-center py-2 sm:py-6 px-2 border-r-2 border-[rgb(255,215,0)]">
           <img className="relative" src={qualtyImg} width={50} alt="image" />
           <img

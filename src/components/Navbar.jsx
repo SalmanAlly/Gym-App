@@ -65,7 +65,7 @@ const Navbar = () => {
           <div className="flex flex-col gap-5 items-center md:ml-16">
             <div className="search relative">
               <input
-                className="outline-none text-black rounded-full px-3 h-10 bg-white opacity-50"
+                className="outline-none w-44 text-black rounded-full px-3 h-10 bg-white opacity-50"
                 type="text"
               />
               <img

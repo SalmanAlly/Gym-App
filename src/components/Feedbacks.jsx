@@ -12,9 +12,9 @@ const Feedbacks = () => {
     <div className='w-48 h-1 bg-[rgb(255,215,0)]'></div>
     </div>
     <div className='flex flex-col gap-5 bg-[#373737] pb-10'>
-        <Feedback title = 'MR JACK' desc = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.' Img= {ClientImg} allignment = {'-left-20'} padding= {'pl-[100px]'}/>
-        <Feedback title = 'MR JOHN' desc = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.' Img= {Client2Img} allignment= {'-right-20'} allignTitle = {'text-end'} padding= {'pr-[100px]'}/>
-        <Feedback title = 'MR JACK' desc = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.' Img= {ClientImg} allignment= {'-left-20'} dots= {<Dots />} padding= {'pl-[100px]'}/>
+        <Feedback title = 'MR JACK' desc = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.' Img= {ClientImg} allignment = {'-left-12 sm:-left-20'} padding= {'pl-[100px]'}/>
+        <Feedback title = 'MR JOHN' desc = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.' Img= {Client2Img} allignment= {'-right-12 sm:-right-20'} allignTitle = {'text-end'} padding= {'pr-[100px]'}/>
+        <Feedback title = 'MR JACK' desc = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.' Img= {ClientImg} allignment= {'-left-12 sm:-left-20'} dots= {<Dots />} padding= {'pl-[100px]'}/>
     </div>
     </>
     
