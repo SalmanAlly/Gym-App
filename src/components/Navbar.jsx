@@ -85,11 +85,11 @@ const Navbar = () => {
         </ul>
        
       </nav>
-      <div onClick={handleNav} className="text-4xl text-white absolute top-6 right-6 md:hidden">
+      <div onClick={handleNav} className="text-4xl text-white absolute top-7 right-6 md:hidden">
       {!nav ?<TiThMenuOutline/>:
       <IoClose />}
         </div>
-        <div className="flex flex-col items-center absolute top-6 left-6 md:hidden">
+        <div className="flex flex-col items-center absolute top-3 left-6 md:hidden">
           <img src={logoImg} width={70} alt="Logo" />
           <p className="font-Averia text-[#FEE715] text-xl font-bold mt-[-3px]">
             Gym<strong className="text-white">Mini</strong>Store
